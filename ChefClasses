@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cout << "How many tests do you want to make?\n";
+	cin >> t;
+	for (int i = 0; i < t; i++) {
+		int x, y;
+
+		cout << "\nHow many weeks do you want?\n";
+		cin >> x;
+		cout << "How much each classe costs?\n";
+		cin >> y;
+		cout << "You'll have to pay U$ "<< x*y;
+
+	}
+	return 0;
+}
+
+
+//Code I made
+//versus code solution
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cout << "How many tests do you want to make?\n";
+	cin >> t;
+	while (t--) {
+		int x, y;
+
+		cout << "\nHow many weeks do you want?\n";
+		cin >> x;
+		cout << "How much each classe costs?\n";
+		cin >> y;
+		cout << "You'll have to pay U$ " << x * y;
+	}
+	return 0;
+}
