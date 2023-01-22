@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cout << "How many tests do you  want? \n";
+    cin >> t;
+    while (t--) {
+        int x;
+        cout << "\nHow many water you drink today?";
+        cin >> x;
+        if (x >= 2000) {
+            cout << "\nCongrats\n";
+        }
+        else cout << "\nDrink More Water!\n";
+    }
+    return 0;
+}
+//Started using "using namespace std;
+//Started optimizing my codes
